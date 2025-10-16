@@ -18,6 +18,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.example.material3expressive.m3_components.AppbarWithSearchField
 import com.example.material3expressive.m3_components.ShowAlertDialog
 import com.example.material3expressive.m3_components.ShowTopAppBar
 
@@ -32,7 +33,7 @@ class MainActivity : ComponentActivity() {
             Material3ExpressiveTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
-                    topBar = { ShowTopAppBar() }
+                    topBar = { AppbarWithSearchField() }
                 ) { innerPadding ->
                     ShowAlertDialog(Modifier.padding(innerPadding))
                 }
