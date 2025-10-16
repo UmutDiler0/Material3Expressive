@@ -19,6 +19,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.material3expressive.m3_components.ShowAlertDialog
+import com.example.material3expressive.m3_components.ShowTopAppBar
 
 import com.example.material3expressive.ui.theme.Material3ExpressiveTheme
 
@@ -29,7 +30,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Material3ExpressiveTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(
+                    modifier = Modifier.fillMaxSize(),
+                    topBar = { ShowTopAppBar() }
+                ) { innerPadding ->
                     ShowAlertDialog(Modifier.padding(innerPadding))
                 }
             }
