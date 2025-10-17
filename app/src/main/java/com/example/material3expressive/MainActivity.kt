@@ -20,6 +20,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.material3expressive.m3_components.AppbarWithSearchField
 import com.example.material3expressive.m3_components.BottomBarView
+import com.example.material3expressive.m3_components.BtnGroup
 import com.example.material3expressive.m3_components.ShowAlertDialog
 import com.example.material3expressive.m3_components.ShowTopAppBar
 
@@ -37,7 +38,13 @@ class MainActivity : ComponentActivity() {
                     topBar = { AppbarWithSearchField() },
                     bottomBar = { BottomBarView() }
                 ) { innerPadding ->
-                    ShowAlertDialog(Modifier.padding(innerPadding))
+                    Column(
+                        modifier = Modifier.padding(innerPadding).fillMaxSize(),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        BtnGroup()
+                    }
                 }
             }
         }
