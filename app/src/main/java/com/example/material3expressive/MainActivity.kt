@@ -22,6 +22,7 @@ import com.example.material3expressive.m3_components.AppbarWithSearchField
 import com.example.material3expressive.m3_components.BottomBarView
 import com.example.material3expressive.m3_components.BtnGroup
 import com.example.material3expressive.m3_components.FABMenu
+import com.example.material3expressive.m3_components.M3LoadingIndicator
 import com.example.material3expressive.m3_components.ShowAlertDialog
 import com.example.material3expressive.m3_components.ShowTopAppBar
 
@@ -44,7 +45,7 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
-                        BtnGroup()
+                        M3LoadingIndicator()
                     }
                 }
             }
