@@ -21,6 +21,7 @@ import androidx.compose.ui.Modifier
 import com.example.material3expressive.m3_components.AppbarWithSearchField
 import com.example.material3expressive.m3_components.BottomBarView
 import com.example.material3expressive.m3_components.BtnGroup
+import com.example.material3expressive.m3_components.FABMenu
 import com.example.material3expressive.m3_components.ShowAlertDialog
 import com.example.material3expressive.m3_components.ShowTopAppBar
 
@@ -36,7 +37,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = { AppbarWithSearchField() },
-                    bottomBar = { BottomBarView() }
+                    floatingActionButton = { FABMenu() }
                 ) { innerPadding ->
                     Column(
                         modifier = Modifier.padding(innerPadding).fillMaxSize(),
