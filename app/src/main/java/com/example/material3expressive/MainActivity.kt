@@ -25,6 +25,7 @@ import com.example.material3expressive.m3_components.FABMenu
 import com.example.material3expressive.m3_components.M3LoadingIndicator
 import com.example.material3expressive.m3_components.ShowAlertDialog
 import com.example.material3expressive.m3_components.ShowTopAppBar
+import com.example.material3expressive.m3_components.SplitBtn
 
 import com.example.material3expressive.ui.theme.Material3ExpressiveTheme
 
@@ -45,7 +46,9 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
+                        BtnGroup()
                         M3LoadingIndicator()
+                        SplitBtn()
                     }
                 }
             }
