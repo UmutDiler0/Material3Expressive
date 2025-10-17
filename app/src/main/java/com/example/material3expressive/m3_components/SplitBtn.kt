@@ -59,7 +59,7 @@ fun SplitBtn(){
             },
             trailingButton = {
                 val description = "Toggle Button"
-                // Icon-only trailing button should have a tooltip for a11y.
+
                 TooltipBox(
                     positionProvider =
                         TooltipDefaults.rememberTooltipPositionProvider(
