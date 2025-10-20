@@ -1,37 +1,34 @@
-# Expressive Android — Material Design 3 Showcase
+# 🎨 Expressive Android — Material Design 3 Showcase
 
-Bu proje, **Jetpack Compose** kullanarak geliştirilen ve **Material Design 3 (Material You)** prensiplerini uygulamalı olarak gösteren bir Android uygulamasıdır.  
-Proje, modern Android uygulama mimarilerini, Compose bileşenlerini ve **adaptive layout** desteğini (telefon, tablet ve foldable ekranlar için) içermektedir.
+This project is an Android application built with **Jetpack Compose**, showcasing the practical implementation of **Material Design 3 (Material You)** principles.  
+It demonstrates modern Android app architecture, Compose components, and **adaptive layout** support for phones, tablets, and foldable devices.
 
 ---
 
 https://github.com/user-attachments/assets/dd1e1e04-c6b4-44ed-a212-1c4795d8d604
 
+---
 
+## ✨ Features
 
-## Özellikler
-
--  **Material Design 3 (Material You)** tasarım sistemi
--  **Jetpack Compose** ile tamamen deklaratif UI
--  **Dynamic color** ve sistem teması entegrasyonu
--  **Modern Android kütüphaneleriyle** entegre yapı
--  **Google Play Services FIDO** desteği (güvenli kimlik doğrulama)
+-  **Material Design 3 (Material You)** design system  
+-  Fully declarative UI built with **Jetpack Compose**  
+-  **Dynamic color** and system theme integration  
+-  Integration with **modern Android libraries**  
+-  **Google Play Services FIDO** support (secure authentication)
 
 ---
 
-## Kullanılan Teknolojiler ve Kütüphaneler
+## 🧱 Technologies & Libraries Used
 
-| Tür | Kütüphane | Açıklama |
-|-----|------------|----------|
-| 🧩 Compose | `androidx.compose.material3:material3` | Material Design 3 bileşenleri |
-| 🧱 Compose Adaptive | `androidx.compose.material3.adaptive:adaptive` | Adaptif UI düzeni (tablet & foldable desteği) |
-| 📐 Window Size Class | `androidx.compose.material3:material3-window-size-class` | Ekran boyutuna göre layout ölçekleme |
-| 🎭 Material Icons | `androidx.compose.material:material-icons-core`, `material-icons-extended` | Geniş ikon seti |
-| 🔒 Güvenlik | `com.google.android.gms:play-services-fido` | FIDO (Fast Identity Online) kimlik doğrulama |
+| Type | Library | Description |
+|------|----------|-------------|
+| Compose | `androidx.compose.material3:material3` | Material Design 3 components |
+| Compose Adaptive | `androidx.compose.material3.adaptive:adaptive` | Adaptive UI layout for tablets & foldables |
+| Window Size Class | `androidx.compose.material3:material3-window-size-class` | Layout scaling based on screen size |
+| Material Icons | `androidx.compose.material:material-icons-core`, `material-icons-extended` | Extended Material icon set |
+| Security | `com.google.android.gms:play-services-fido` | FIDO (Fast Identity Online) authentication |
 
 ---
 
-## 🧭 Mimarî
-
-Proje, **modern Compose mimarisi** ve **separation of concerns** ilkelerine göre yapılandırılmıştır:
 
